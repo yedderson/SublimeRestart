@@ -5,7 +5,8 @@ This plugin restarts SublimeText in one key press.
 
 Installation
 ------------
-.. _download: https://github.com/downloads/yedderson/SublimeRestart/Restart.sublime-package 
+.. _download:: https://github.com/downloads/yedderson/SublimeRestart/Restart.sublime-package
+
 Using SublimeText package manager:
 type `package install` then look for 'Restart'.
 
