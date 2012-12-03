@@ -8,7 +8,7 @@ Installation
 Using SublimeText package manager:
 type `package install` then look for 'Restart'.
 
-or download the binary package file to your "installed packages" directory.
+or [download](https://github.com/downloads/yedderson/SublimeRestart/Restart.sublime-package) the binary package file to your "installed packages" directory.
 
 Usage
 -----
