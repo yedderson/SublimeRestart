@@ -1,7 +1,7 @@
 SublimeText Restart
 ===================
 
-This plugin restarts SublimeText in one key press.
+Sublime Restart plugin lets you restart Sublime Text 2 with a single keypress.
 
 Installation
 ------------
