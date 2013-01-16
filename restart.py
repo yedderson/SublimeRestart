@@ -8,4 +8,4 @@ class RestartCommand(sublime_plugin.TextCommand):
         if sys.platform == 'win32':
             os.execl(sys.executable,' ')
         else:
-            os.execl(sys.executable,sys.executable, ' ')
+            pass
