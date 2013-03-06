@@ -8,4 +8,4 @@ class RestartCommand(sublime_plugin.TextCommand):
         if sys.platform == 'win32':
             os.execl(sys.executable,' ')
         else:
-            os.execv(sublime.load_settings("Restart.sublime-settings").get("path"),[])
+            os.execl(sublime.load_settings("Restart.sublime-settings").get("path"))
