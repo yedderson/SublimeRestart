@@ -3,8 +3,10 @@
 	    "id": "file",
 	    "children":
 	    [
-	        {"id": "wrap"},
-	        { "command": "restart" }
+            {
+            "id":"Quit",
+	        "command": "restart"
+            }
 	    ]
 	},
 		{
@@ -13,7 +15,7 @@
         "id": "preferences",
         "children":
 	    [
- {
+            {
                 "caption": "Package Settings",
                 "mnemonic": "P",
                 "id": "package-settings",
