@@ -1,10 +1,41 @@
 [
-{
-    "id": "file",
-    "children":
-    [
-        {"id": "wrap"},
-        { "command": "restart" }
-    ]
-}
+	{
+	    "id": "file",
+	    "children":
+	    [
+	        {"id": "wrap"},
+	        { "command": "restart" }
+	    ]
+	},
+		{
+	    "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+	    [
+ {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Restart",
+                        "children":
+                        [
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/Restart/Restart.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+	    ]
+	}
 ]
