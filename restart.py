@@ -8,4 +8,10 @@ class RestartCommand(sublime_plugin.TextCommand):
         if sys.platform == 'win32':
             os.execl(sys.executable,' ')
         else:
-            os.execl(sublime.load_settings("Restart.sublime-settings").get("path"))
+            path = sublime.load_settings("Restart.sublime-settings").get("path")
+            if path:
+                os.execl(path)
+            elif sys.platform == 'darwin':
+                os.execl('/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl')
+            else:
+                os.execl('/usr/local/sublime-text/sublime_text')

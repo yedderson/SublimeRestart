@@ -3,16 +3,14 @@
 	Sublime Restart 
 	---------------
 	
-	- Linux and OSX users :
+	- Linux and OSX users ONLY :
 
-	  replace PATH with the location of sublime-text executable.
-
-	  References:
-	  http://www.sublimetext.com/docs/2/osx_command_line.html
-
+	  Set "path" to the location of sublime-text binary.
+	  default for linux is /usr/local/sublime-text/sublime_text
+	  default for OSX is /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl
 
 */
 
 {
-	"path" : "/usr/local/sublime-text/sublime_text"
+	"path" : ""
 }

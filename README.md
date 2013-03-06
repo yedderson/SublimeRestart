@@ -17,8 +17,8 @@ type `package install` then look for 'Restart'.
 
 Usage
 -----
-OSX and Linux users need to point Restart to the location of Sublime-text, 
-go to Preferences > Packages Settings > Restart > Settings and set the 'PATH' to the location of Sublime-text executable.
+The default key binding for restarting SublimeText is `F5`, a `restart` entry is added to the File menu as well.
 
-The default key binding for restarting SublimeText is `F5` a `restart` entry is added to the File menu as well.
+OSX and Linux users can manually set the correct location of sublime-text,
+go to Preferences > Packages Settings > Restart > Settings and set 'PATH' to the location of Sublime-text binary.
 
