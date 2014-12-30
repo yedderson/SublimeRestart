@@ -1,18 +1,18 @@
 SublimeText Restart
 ===================
 
-Sublime Restart plugin lets you restart Sublime Text 2 with a single keypress.
+Sublime Restart plugin lets you restart Sublime Text with a single keypress.
 
 
-Supported platforms
--------------------
-Windows, Linux, OSX
+Supported versions and platforms
+--------------------------------
+ST2 and ST3 on Windows, Linux, OSX
 
 
 Installation
 ------------
 Using SublimeText Package Manager:
-type `package install` then look for 'Restart'.
+type `package install` then look for 'Restart' or manually clone this repo in the Packages directory
 
 
 Usage
