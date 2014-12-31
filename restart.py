@@ -17,11 +17,11 @@ class RestartCommand(sublime_plugin.TextCommand):
             if sublime.version()[:1]=='3':
                 subprocess.call("pkill subl && "+ os.path.join(os.getcwd(), 'subl'), shell=True)
             else:
-                os.execl('/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl')
+                os.execl(os.path.join(os.getcwd(), 'subl'))
         else:
             #Restarting ST3 on linux
             if sublime.version()[:1]=='3':
                 subprocess.call("pkill 'sublime_text' && "+ os.path.join(os.getcwd(), 'sublime_text'), shell=True)
                 
             else:
-                os.execl('/usr/local/sublime-text/sublime_text')
+                os.execl(os.path.join(os.getcwd(), 'sublime_text'))
