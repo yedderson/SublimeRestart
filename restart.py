@@ -9,7 +9,7 @@ class RestartCommand(sublime_plugin.TextCommand):
         
         if sys.platform == 'win32':
             if sublime.version()[:1]=='3':
-                subprocess.call('taskkill /im sublime_text.exe /f & cmd /C "'+ os.path.join(os.getcwd(), 'sublime_text.exe') + '"', shell=True)
+                subprocess.call('taskkill /im sublime_text.exe /f && cmd /C "'+ os.path.join(os.getcwd(), 'sublime_text.exe') + '"', shell=True)
             else:
                 os.execl(sys.executable,' ')
         elif sys.platform == 'darwin':
